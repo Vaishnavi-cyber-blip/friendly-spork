@@ -18,7 +18,7 @@ function Try2() {
   const handleAnalyzeClaim = async () => {
     setLoading(true);
     try {
-      const result = await axios.post('https://consume-2.onrender.com', {
+      const result = await axios.post('https://consume-2.onrender.com/analyze_claim', {
         claim: claim,
         nutritionText: nutritionText,
       });
