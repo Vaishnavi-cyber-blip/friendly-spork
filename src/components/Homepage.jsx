@@ -29,7 +29,12 @@ function Homepage() {
             </p>
             <Link to="/try-toy">
               <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base">
-                TRY TOY
+                Version-1
+              </button>
+            </Link>
+            <Link to="/toy-image">
+              <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base">
+                Version-2
               </button>
             </Link>
           </div>
@@ -112,10 +117,3 @@ function Homepage() {
 }
 
 export default Homepage;
-
-
-
-
-
-
-

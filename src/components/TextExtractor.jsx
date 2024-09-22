@@ -1080,14 +1080,14 @@
 //   const isCheckDisabled = !productName || !userInput || !extractedText || loading;
 
 //   return (
-//     <div className="flex">
-//       {/* Left Sidebar */}
-//       <div className="bg-[#00bf63] text-white p-6 w-[25%] fixed top-0 left-0 h-full flex flex-col">
-//         <img 
-//           src="./ll.png" 
-//           alt="Consume Wisely Logo" 
-//           className="mb-6" 
-//         />
+    // <div className="flex">
+    //   {/* Left Sidebar */}
+    //   <div className="bg-[#00bf63] text-white p-6 w-[25%] fixed top-0 left-0 h-full flex flex-col">
+    //     <img 
+    //       src="./ll.png" 
+    //       alt="Consume Wisely Logo" 
+    //       className="mb-6" 
+    //     />
 
 //         <div className="flex flex-col mb-6">
 //           <label className="bg-white text-green-700 p-4 rounded-lg shadow-lg text-center cursor-pointer hover:bg-green-100 transition duration-300 ease-in-out">
