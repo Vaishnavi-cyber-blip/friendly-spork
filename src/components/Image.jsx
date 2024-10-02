@@ -136,8 +136,8 @@ function App() {
         {/* Header Links */}
         <div className="flex justify-end space-x-6 mb-6">
           
-          <a href="http://localhost:5173/facts" className="text-green-600">AI Experts</a>
-          <a href="http://localhost:5173/chat" className="text-green-600">Learn Healthy</a>
+          <a href="https://friendly-spork-2.onrender.com/facts" className="text-green-600">AI Experts</a>
+          <a href="https://friendly-spork-2.onrender.com/chat" className="text-green-600">Learn Healthy</a>
           {/* <a href="#" className="text-green-600">Products in News</a> */}
         </div>
 
