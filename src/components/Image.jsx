@@ -225,7 +225,7 @@ function App() {
     setIsExtracting(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/extract_text', formData, {
+      const response = await axios.post('https://consume-8n19.onrender.com/extract_text', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       setExtractedText(response.data.text);
@@ -245,7 +245,7 @@ function App() {
     setLoading(true); 
 
     try {
-      const response = await axios.post('http://localhost:5000/claim_analyser', {
+      const response = await axios.post('https://consume-8n19.onrender.com/claim_analyser', {
         extractedText,
         userInput: claimInput,
         productName,
