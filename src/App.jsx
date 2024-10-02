@@ -23,7 +23,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/Homepage'; // Import HomePage component
 import Try2 from './components/Try2';
-import Image from './components/Image'; 
+import Image from './components/Image';
+import Facts2 from './components/Facts2'; 
+import Chat from './components/Chat';
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
         <Route path="/" element={<HomePage />} /> {/* HomePage is the default route */}
         <Route path="/try-toy" element={<Try2 />} /> {/* Try2 route */}
         <Route path="/toy-image" element={<Image />} /> {/* Try2 route */}
+        <Route path="/facts" element={<Facts2 />} /> 
+        <Route path="/chat" element={<Chat />} /> 
+
       </Routes>
     </Router>
   );
@@ -40,6 +45,61 @@ function App() {
 export default App;
 
 //------------------------------------------------------------------------------------------
+
+
+// import React, { useState } from 'react';
+// import axios from 'axios';
+
+// const ExtractText = () => {
+//   const [selectedFile, setSelectedFile] = useState(null);
+//   const [extractedText, setExtractedText] = useState('');
+//   const [error, setError] = useState('');
+
+//   const handleFileChange = (event) => {
+//     setSelectedFile(event.target.files[0]);
+//   };
+
+//   const handleUpload = async () => {
+//     if (!selectedFile) {
+//       setError('Please select an image file');
+//       return;
+//     }
+
+//     const formData = new FormData();
+//     formData.append('image', selectedFile);
+
+//     try {
+//       const response = await axios.post('http://127.0.0.1:5000/extract-text', formData, {
+//         headers: {
+//           'Content-Type': 'multipart/form-data',
+//         },
+//       });
+//       setExtractedText(response.data.text);
+//       setError('');
+//     } catch (error) {
+//       setError('Failed to extract text. Please try again.');
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <h1>Text Extraction using Tesseract</h1>
+//       <input type="file" accept="image/*" onChange={handleFileChange} />
+//       <button onClick={handleUpload}>Extract Text</button>
+      
+//       {error && <p style={{ color: 'red' }}>{error}</p>}
+      
+//       {extractedText && (
+//         <div>
+//           <h2>Extracted Text:</h2>
+//           <textarea value={extractedText} readOnly rows="10" cols="50" />
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default ExtractText;
 
 
 // import React, { useState } from 'react';

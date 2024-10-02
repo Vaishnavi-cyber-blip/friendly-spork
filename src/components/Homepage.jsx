@@ -13,6 +13,16 @@ function Homepage() {
           <div className="flex space-x-8">
             <a href="#why-this" className="text-white hover:underline text-lg">Why this?</a>
             <a href="#how-it-works" className="text-white hover:underline text-lg">How it works</a>
+            {/* <Link to="/facts">
+              <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base mr-4">
+                Find Facts
+              </button>
+            </Link>
+            <Link to="/chat">
+              <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base mr-4">
+                Find Facts
+              </button>
+            </Link> */}
           </div>
         </div>
       </nav>
@@ -24,11 +34,11 @@ function Homepage() {
             <h1 className="text-[#00bf63] text-2xl md:text-4xl font-bold leading-tight mb-1 md:mb-2">
               Get the Truth Behind <br /> Every Product Label {/* Breaking the heading into two lines */}
             </h1>
-            <p className="text-green-400 text-base md:text-lg mb-2 md:mb-4">
+            <p className="text-green-600 text-base md:text-lg mb-2 md:mb-4">
               Empowering Consumers with AI-Powered <br /> Label Insights
             </p>
             <Link to="/try-toy">
-              <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base">
+              <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-2 rounded-lg shadow-md transition duration-300 hover:bg-green-600 text-sm md:text-base mr-4">
                 Version-1
               </button>
             </Link>
@@ -51,12 +61,12 @@ function Homepage() {
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-green-600 text-2xl md:text-3xl font-bold mb-2">How It Works (Quick Steps):</h2>
-          <ul className="text-green-500 space-y-2 mb-6">
+          <ul className="text-green-600 space-y-2 mb-6">
             <li>Step 1: Enter the claim made and the ingredients.</li>
             <li>Step 2: Our AI analyzes the claims and ingredients.</li>
             <li>Step 3: Receive a detailed, easy-to-understand report.</li>
           </ul>
-          <a href="https://www.youtube.com/embed/7tLJ-uOa53E?si=wwWGuHyBj025WQEM" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/embed/QpV6qvnuJww?si=41AxaCAbgWlIHjRV" target="_blank" rel="noopener noreferrer">
             <button className="bg-[#00bf63] text-[#c1ff72] font-bold italic px-6 py-3 rounded-lg shadow-md transition duration-300 hover:bg-green-600">
               DEMO VIDEO
             </button>
@@ -79,7 +89,7 @@ function Homepage() {
         <iframe
           width="560"
           height="315"
-          src="https://www.youtube.com/embed/7tLJ-uOa53E?si=wwWGuHyBj025WQEM" // Replace with your video link
+          src="https://www.youtube.com/embed/QpV6qvnuJww?si=41AxaCAbgWlIHjRV" // Replace with your video link
           title="Demo Video"
           className="rounded-lg shadow-lg"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -95,10 +105,10 @@ function Homepage() {
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h2 className="text-green-600 text-3xl md:text-4xl font-bold mb-4">Why This?</h2>
-            <p className="text-[#00bf63] text-base md:text-base mb-4 leading-relaxed">
+            <p className="text-green-600 text-base md:text-base mb-4 leading-relaxed">
               In today's world, consumers are bombarded with information about products. Often, this information is confusing, misleading, or incomplete. Our AI-powered solution aims to bridge that gap by providing consumers with easy-to-understand insights into product labels. We empower you to make informed decisions about the products you buy, ensuring transparency and trust.
             </p>
-            <p className="text-[#00bf63] text-base md:text-base leading-relaxed">
+            <p className="text-green-600 text-base md:text-base leading-relaxed">
               With this app, you can finally decode complex product labels, discover hidden ingredients, and make choices that align with your values and needs. It's time to take control of what you consume with confidence.
             </p>
           </div>
