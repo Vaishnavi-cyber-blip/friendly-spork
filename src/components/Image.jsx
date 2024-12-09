@@ -65,7 +65,7 @@ function App() {
       console.error('Error analyzing claim:', error);
     }
     finally {
-      setLoading(false); // Stop loading spinner
+      setLoading(false); 
     }
   };
 
