@@ -15,3 +15,13 @@ Curious to see it in action? Click the thumbnail below to watch a demo video:
 ## 🌐 Website
 Try out the application live:
 https://friendly-spork-2.onrender.com/
+
+## Application Artitecture Diagram
+
+![consu drawio](https://github.com/user-attachments/assets/ef7063f1-2f9f-4808-bb2e-c5d89ce7f1df)
+
+## Backend Repositories
+
+- https://github.com/Vaishnavi-cyber-blip/ConsumeImg
+- https://github.com/Vaishnavi-cyber-blip/Consume
+
