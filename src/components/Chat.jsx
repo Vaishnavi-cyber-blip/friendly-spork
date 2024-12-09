@@ -19,7 +19,7 @@ function App() {
     setLoading(true);
     let prompt;
 
-    // Define different prompts based on the role
+    
     if (role === 'nutritionist') {
       prompt = `You are a professional nutritionist. Answer the user's query: "${userInput}" with detailed nutritional advice.`;
     } else if (role === 'dietician') {
@@ -31,7 +31,7 @@ function App() {
       const response = await axios.post('http://localhost:5000/gemini', {
         prompt,
       });
-      setResponse(response.data.result); // Assuming response is structured this way
+      setResponse(response.data.result); 
     } catch (error) {
       console.error('Error calling Gemini API:', error);
       setResponse('An error occurred while fetching the response.');
