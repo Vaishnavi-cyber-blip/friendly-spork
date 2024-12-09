@@ -243,8 +243,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
- // Adjust the path based on where you store the logo
-
+ 
 function App() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [extractedText, setExtractedText] = useState('');
