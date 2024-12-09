@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
- // Adjust the path based on where you store the logo
-
+ 
 function Try2() {
   const [claim, setClaim] = useState('');
   const [nutritionText, setNutritionText] = useState('');
